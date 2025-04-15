@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate Full-Stack Web Developer, skilled in building intelligent web applications using ReactJS, Node.js, and RESTful APIs. Experienced in
 leveraging AI tools and frameworks to enhance user experiences and optimize system performance. With a passion for creating
@@ -81,6 +82,14 @@ export const PROJECTS = [
       "ChatGPT API integred in a chatbot with Node.js. The chatbot is powered by the GPT-3.5 Turbo model. a general chatbot that can talk about anything. Able to answer questions, generate code, tell jokes, and much more. It's essentially ChatGPT, but within your own application with a Node.js wrapper. Chat right within your terminal",
     technologies: ["HTML", "CSS", "NodeJS", "OpenAI API", "Bolt"],
     github: "https://github.com/WalidNuev9/ai-chatbot-nodejs",
+  },
+  {
+    title: "TaskFlow V0",
+    image: project5,
+    description:
+      "application web minimaliste permettant aux utilisateurs de créer, organiser et suivre des projets en gérant des tâches sous forme de cartes sur des tableaux. La version 0 vise à valider les concepts clés : gestion de projets, organisation par colonnes (listes), création/modification/suppression de tâches, et collaboration en temps réel entre utilisateurs sur un même tableau.",
+    technologies: ["HTML", "CSS", "Typescript", "React", "Node.js", "Supabase"],
+    github: "https://github.com/WalidNuev9/Task-Flow",
   },
 ];
 
